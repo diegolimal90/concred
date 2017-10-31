@@ -4,7 +4,7 @@
 
 	//variaveis com os valores de get e post
 	$nome 		= utf8_decode($_POST['name']);
-	$perfil		= $_POST['perfil'];
+	$perfil		= utf8_decode($_POST['perfil']);
 	$tel 		= $_POST['tel'];
 	$email 		= $_POST['email'];
 
