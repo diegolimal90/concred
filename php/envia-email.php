@@ -36,7 +36,7 @@
 	$mail ->Charset = 'UTF-8';										//aceitar caracteres especiais
 
 	//configurar cabeçalho de email
-	$mail ->setFrom('ligue@conscred.com.br', 'Contato ConsCred');//insere o remetente
+	$mail ->setFrom('ligue@conscred.com.br', 'Me Ligue ConsCred');//insere o remetente
 	$mail ->addAddress('contato@conscred.com.br');//adiciona o destinatario
 	$mail->addCC('ligue@conscred.com.br');							//envio de copia de email
 	$mail ->isHTML(true);											//formato do email em html
